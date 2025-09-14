@@ -1,0 +1,11 @@
+div{
+    color: green;
+    /* background: orange; */
+    height: 100px;
+    width: 100px;
+    border: solid rgb(0, 0, 0) 3px;
+  border-radius: 99px;
+  /* padding: 5%;
+  margin-top: 55px; */
+
+}

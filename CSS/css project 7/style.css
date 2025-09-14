@@ -1,0 +1,28 @@
+#ckk{
+    background-color: cyan;
+    display: flex;
+    /* justify-content:space-around ; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: rgb(2, 48, 4);
+}
+li{
+    display: inline;
+    list-style-type: none;
+}
+#outer{
+    background-color: deeppink;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    background-color: cyan;
+    height: 100px;
+    width: 100px; 
+}

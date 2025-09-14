@@ -1,0 +1,51 @@
+div {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    border: 2px black solid;
+    color: rgb(14, 228, 247);
+    background-color: rgb(85, 9, 217);
+    /* transition-property: all;
+    transition-duration: 4s; */
+    /* transform: rotate(10deg); */
+    /* rotate: x 100deg; */
+    /* transform:scale(2,1) */
+    /* # --animation properties-- */
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    /* animation-timing-function: ease-in; */
+    animation-direction: normal;
+}
+
+@keyframes colorAnimate {
+    from {
+        left: 30px;
+    }
+
+50%{
+    background-color: blue;
+}
+    to {
+        left: 200px;
+    }
+}
+
+div:hover {
+    /* background-color: rgb(24, 210, 239);
+    color: rgb(101, 211, 16); */
+    /* transform: scale(2,2);
+    transform: rotate(1040deg); */
+    /* transform: translate(-200px); */
+    /* transform: skew(90deg); */
+}
+
+div:active {
+    color: crimson;
+    background-color: orange;
+}

@@ -1,0 +1,19 @@
+#one{
+ background-color: green;
+}
+#two{
+    background-color: blue;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+#three{
+    background-color: orange;
+}
+div{
+    /* text-align: center; */
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 20px;
+    display: inline-block;
+}

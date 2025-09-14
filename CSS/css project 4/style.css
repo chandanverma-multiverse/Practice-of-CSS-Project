@@ -1,0 +1,32 @@
+*{
+    margin:0px
+}
+#navbar{
+    background-color: rgb(24, 20, 20);
+    height: 60px;
+}
+buttom{
+    background-color: orange;
+}
+#logo{
+    color: orange;
+}
+a{
+    margin-right: 195px;
+    text-decoration:none ;
+    color: white;
+}
+#box{
+    height: 100px;
+    width: 100px;
+   display: inline-block;
+   border: solid 2px rgb(1, 0, 0);
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#king{
+    height: 900px;
+}
